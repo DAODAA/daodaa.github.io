@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <!-- En-tête avec navigation -->
+    <header>
+        <div class="logo">
+            <h1>Albert <span class="highlight">DAODA</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#a-propos">À propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section d'accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h2>Je suis <span class="highlight">Albert DAODA</span>, Développeur en devenir passionné par le web et le
+                développement durable !</h2>
+            <a href="#projets" class="btn">Voir mes projets</a>
+        </div>
+        <div class="hero-image">
+            <img src="img/3759159.svg" alt="Illustration de développement web" width="500">
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="a-propos" class="about">
+        <h2 class="section-title">À propos</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Je m'appelle <span class="highlight">DAODA</span>, passionné par la création de sites web modernes et
+                    interactifs.</p>
+                <p>Je suis élève ingéneur en <span class="highlight">Génie de l'environnement et
+                        développement web</span>, et je cherche à me perfectionner en JavaScript, HTML et CSS.
+                </p>
+                <p>J'adore transformer mes idées en projets concrets et expérimenter avec les nouvelles technologies.
+                </p>
+                <a href="#" class="btn" id="download-cv">Télécharger mon CV</a>
+            </div>
+            <div class="about-image">
+                <img src="img/DAODA_profile_image.svg" alt="Ma photo de profil" height="280" width="280">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <h2 class="section-title">Mes Projets</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Le projet Eat and Drink, un site web de vente en ligne des burgers et hot dogs</h3>
+                <div class="project-tags">
+                    <span class="tag">#html</span>
+                    <span class="tag">#css</span>
+                    <span class="tag">#js</span>
+                </div>
+                <a href="#" class="btn">Voir</a>
+            </div>
+            <div class="project-card">
+                <h3>Le site web du state of the map Africa 2023</h3>
+                <div class="project-tags">
+                    <span class="tag">#html</span>
+                    <span class="tag">#css</span>
+                    <span class="tag">#js</span>
+                    <span class="tag">#php</span>
+                    <span class="tag">#laravel</span>
+                </div>
+                <a href="https://2023.stateofthemap.africa/" class="btn" target="_blank">Voir</a>
+            </div>
+            <div class="project-card">
+                <h3>Le site web opportunities for refugees de UNHCR Cameroon</h3>
+                <div class="project-tags">
+                    <span class="tag">#html</span>
+                    <span class="tag">#css</span>
+                    <span class="tag">#js</span>
+                    <span class="tag">#php</span>
+                    <span class="tag">#wordpress</span>
+                </div>
+                <a href="https://www.opportunitiesforrefugees.org" class="btn" target="_blank">Voir</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills">
+        <h2 class="section-title">Mes Compétences</h2>
+        <div class="skills-container">
+            <div class="skills-column">
+                <h3>Soft Skills</h3>
+                <div class="skill">
+                    <p>Gestion de projet</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Résolution de problèmes</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Adaptabilité</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Collaboration</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-column">
+                <h3>Hard Skills</h3>
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <p>Github</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 60%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <h2>Vous avez un <span class="highlight">projet en tête</span> ?</h2>
+        <p>N'hésitez pas à me <span class="highlight">contacter</span></p>
+
+        <form id="contact-form">
+           <div id="nameLastname">
+            <div class="form-group">
+                <label for="name">Votre prénom</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Votre nom</label>
+                <input type="text" id="last-name" name="last-name">
+            </div>
+           </div>
+            <div class="form-group">
+                <label for="email">Votre mail</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <div id="btn"><button type="submit" class="btn">Envoyer</button></div>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>Designed by <span class="highlight">Albert DAODA</span> with HTML, CSS, JS</p>
+        <p>Tous droits réservés - 2025</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
